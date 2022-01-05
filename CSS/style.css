@@ -90,7 +90,7 @@
 }
 
 button:hover {
-    background-color: #813030; /* Green */
+    background-color: #813030; 
     color: white;
 }
 .devPic img{
@@ -98,16 +98,20 @@ button:hover {
     border-radius: 100%;
     height: 55vh;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 100px;
+    margin-right: 70px;
 }
 
+.contact{
+    height: 68vh;
+    width: 80vw;
+}
 .contactform{
-    padding: 0 100px;
-    padding-top: 100px;
+    padding: 40px 120px;
+    padding-top: 40px;
     font-family: 'Fira Sans', sans-serif;
     font-size: 25px;
-
-    
+    background-color: #dbc7c7;  
 }
 .contactform h1{
     font-family: 'Source Code Pro', monospace;
@@ -117,7 +121,7 @@ button:hover {
 }
 
 .contactform form div{
-    padding: 20px 0;
+    padding: 15px 0;
     display: flex;
     flex-direction: column;
     
@@ -126,17 +130,41 @@ button:hover {
     width: 26vw;
     border-radius: 5px;
     margin: 10px 0 0 0;
-    padding: 3px;
+    padding: 5px;
+    border: solid 2px;
+    color: black;
+}
+.form-control{
+    font-size: 19px;
 }
 
 #emailHelp{
-    font-size: 17px;
-    color: midnightblue;
+    font-size: 15px;
+    /* color: midnightblue; */
+    padding: 4px;
 }
-.mb-3 .form-check{
+#form-check{
     flex-direction: row;
+    font-size: smaller;
 }
-.form-check-input{
-    width: 24px;
-    margin: 3px 0;
+#form-check .form-check-input{
+    width: 20px;
+    height: 20px;
+    margin: 3px 10px 10px 0;
 }
+.btn {
+    background-color: #813030; 
+    border: 3px solid #813030 ;
+    color: white;
+    padding: 7px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+:hover.btn{
+    background-color: #dbc7c7; 
+    color: black;
+}
+  
