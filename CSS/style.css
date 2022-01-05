@@ -7,7 +7,7 @@
 }
 
 /* Navbar */
-.sidebar{
+.sidebar{  
     /* background-color: blue; */
     background-color: #813030;
     width: 434px;
@@ -133,6 +133,10 @@ button:hover {
     font-size: 17px;
     color: midnightblue;
 }
-.form-check-input{
+.mb-3 .form-check{
     flex-direction: row;
+}
+.form-check-input{
+    width: 24px;
+    margin: 3px 0;
 }
