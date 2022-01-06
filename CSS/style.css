@@ -29,6 +29,9 @@
     color: #fff;
 }
 
+
+/* Home */
+
 .main{
     /* background-color: yellow; */
     width: 88vw;
@@ -102,6 +105,7 @@ button:hover {
     margin-right: 70px;
 }
 
+/* Contact */
 .contact{
     height: 68vh;
     width: 80vw;
@@ -129,7 +133,7 @@ button:hover {
 }
 .contactform form div input{
     width: 26vw;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 10px 0 0 0;
     padding: 5px;
     border: solid 2px;
@@ -169,6 +173,7 @@ button:hover {
     color: black;
 }
   
+/* About */
 
 .intro h2{
  font-family: 'Fira Sans', sans-serif;
@@ -184,17 +189,14 @@ button:hover {
     padding: 20px;
     font-size: 20px;
 }
-.skillItem{
-    display: flex;
-    align-items: center;
+
+.skillContainer ul{
+    padding: 0 50px;
 }
 
-.skill{
-    width: 265px;
-    height: 8px;
-    background-color: red;
-    margin: 10px 0;
-    
-    
+.skillContainer li{
+    padding: 7px;
+    font-size: 23px;
 }
+
 
