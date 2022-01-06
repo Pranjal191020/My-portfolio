@@ -105,6 +105,7 @@ button:hover {
 .contact{
     height: 68vh;
     width: 80vw;
+    
 }
 .contactform{
     padding: 40px 120px;
@@ -168,3 +169,26 @@ button:hover {
     color: black;
 }
   
+
+.intro h2{
+ font-family: 'Fira Sans', sans-serif;
+ margin: 12px;
+}
+
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    font-weight:800;
+    margin: 12px;
+}
+.skillContainer{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.skill{
+    width: 265px;
+    height: 8px;
+    background-color: red;
+    margin: 10px 0;
+    
+}
