@@ -77,11 +77,11 @@ p{
     font-family: 'Fira Sans', sans-serif;
 }
 .about{
-    font-size: 40px;
-    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+    font-family: 'Fira Sans', sans-serif;
 }
 .moreabout{
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Fira Sans', sans-serif;
     margin-top: 10px;
 }
@@ -196,6 +196,7 @@ button:hover {
     /* background-color: #813030; */
   
 } 
+
 .intro h2{
     font-family: 'Fira Sans', sans-serif;
     margin: 20px;
@@ -271,7 +272,7 @@ button:hover {
     font-size: 25px;
     display: flex;
     flex-direction: column;
-    position: relative;
+    /* position: relative; */
 }
 
 .card img{
@@ -306,8 +307,7 @@ button:hover {
 
 .site:hover{
     text-decoration:underline black ;
-    /* color: #813030; */
-    -moz-transition: all 500ms ease;
+    /* color: #813030;  */
 
 }
 .work__image-box{
