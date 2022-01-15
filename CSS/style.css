@@ -6,7 +6,8 @@
     padding: 0%;
 }
 
-p{
+
+#project p{
     font-size: 18px;
     /* font-family: 'Fira Sans', sans-serif; */
 }
@@ -196,7 +197,20 @@ button:hover {
     /* background-color: #813030; */
   
 } 
-
+.cards{
+    background: #BBBBBB;
+    border-radius: 4px;
+    display: inline-block;
+    height: 350px;
+    position: relative;
+    left: 350px;
+    width: 550px;
+    margin: 50px 50px;
+    text-align: center;
+    font-size: 24px;
+    flex-direction: column;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
 .intro h2{
     font-family: 'Fira Sans', sans-serif;
     margin: 20px;
@@ -237,8 +251,9 @@ button:hover {
 }
 #project h1{
     padding: 50px 80px;
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Fira Sans', sans-serif;
+    text-align: center;
 }
 
 #project li{
@@ -260,7 +275,7 @@ button:hover {
     padding: 15px;
     font-size: 35px;
 }
-.card{
+#project .card{
     background: #fff;
     border-radius: 4px;
     display: inline-block;
@@ -280,7 +295,7 @@ button:hover {
     height: 380px;
 }
 
-.card:hover{
+#project .card:hover{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
