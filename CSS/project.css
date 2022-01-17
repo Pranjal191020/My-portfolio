@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fira+Sans&family=Source+Code+Pro:wght@300&family=The+Nautigal&display=swap');
+
+/* projects */
+#project{
+    background-color: #FAEDF0;
+    padding-left: 256px;
+}
+hr{
+    width: 100px;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0px;
+    border-top: 8px dotted red;
+}
+#project h1{
+    padding: 50px 80px;
+    font-size: 80px;
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+}
+#project p {
+    font-size: 18px;
+    font-family: "Source Code Pro", monospace;
+    padding: 20px 0;
+    font-weight: 900;
+  }
+
+#project li{
+    font-size: 25px;
+    padding: 2px;
+}
+#project h3{
+    font-size: 40px;
+}
+
+
+.projects h1{
+    font-size: 50px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 30px;
+    
+}
+.projects h2{
+    padding: 15px;
+    font-size: 35px;
+}
+#project .card{
+    background: #fff;
+    border-radius: 4px;
+    display: inline-block;
+    height: 300px;
+    position: relative;
+    width: 500px;
+    margin: 50px 50px;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+}
+
+.card img{
+    width: 500px;
+    height: 300px;
+}
+
+#project .card:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.work__text{
+    margin: 100px 60px;
+}
+
+.work__box {
+    display: flex;
+    align-items: center;  
+}
+
+.work__links{
+    padding: 10px 0;
+}
+
+.work__links a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 25px;
+    text-underline-offset: 8px;
+}
+
+.site:hover{
+    text-decoration:underline black ;
+    /* color: #813030;  */
+
+}
+.work__image-box{
+    width: 800px;
+    position:absolute;
+    left: 100px;
+}
+.fab{
+    /* padding: 50px 0; */
+    /* margin: 5px 0; */
+    position: relative;
+    top:9px;
+}

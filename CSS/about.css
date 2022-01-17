@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fira+Sans&family=Source+Code+Pro:wght@300&family=The+Nautigal&display=swap');
+
+
+/* About */
+#About{
+    /* width: 80vw; */
+    background-color: #fff;
+    padding-left: 256px;
+    background-color: #CCD1E4;
+   height: 30%;
+  
+} 
+.cards{
+    background: #F5F5F5;
+    border-radius: 4px;
+    display: inline-block;
+    height: 420px;
+    position: relative;
+    /* color: #fff; */
+    left: 250px;
+    width: 450px;
+    margin: 50px 50px;
+    text-align: center;
+    font-size: 20px;
+    flex-direction: column;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+#About h1{
+    font-family: "Dancing Script", cursive;
+    padding: 20px ;
+    font-size: 80px;
+    text-align: center;
+}
+#About h2{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+#About p{
+    font-family: 'Source Code Pro', monospace;
+    font-weight:800;
+    padding: 30px;
+}
+.skillContainer{
+    /* padding: 20px; */
+    font-size: 20px;
+    text-align: center;
+}
+.skillContainer .icons ul{
+    /* padding: 0 50px; */
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+}
+.skillContainer .icons li{
+    padding: 35px 80px 35px 80px;
+} 
+
+.skillContainer .icon{
+    display: flex;
+    flex-direction: row;
+}
+.skill{
+    display: flex;
+    flex-direction: row;
+    /* padding: 0 200px; */
+}
+ 
+.skillContainer .skill li{
+    text-align: center;
+    padding:0 80px 40px 80px;
+    font-size: 30px;
+}
+
+
+/* 
+.hobbies ul{
+    padding: 0 70px 30px;
+}
+.hobbies li{
+    padding: 10px;
+    font-size: 23px ;
+} */
