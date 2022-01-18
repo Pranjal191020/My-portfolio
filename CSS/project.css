@@ -14,7 +14,7 @@ hr{
     margin-right: auto;
     border-style: inset;
     border-width: 0px;
-    border-top: 8px dotted red;
+    border-top: 8px dotted #060930;
 }
 #project h1{
     padding: 50px 80px;

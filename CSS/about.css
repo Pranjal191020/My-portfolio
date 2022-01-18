@@ -7,7 +7,7 @@
     background-color: #fff;
     padding-left: 256px;
     background-color: #CCD1E4;
-   height: 30%;
+    height: 30%;
   
 } 
 .cards{
@@ -25,7 +25,21 @@
     flex-direction: column;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
-
+/* 
+@media only screen and (max-width: 1650px) {
+    .cards{
+        height: 380px;
+        width: 350px;
+        font-size: 15px;
+    }
+     h2{
+        padding: 10px;
+        font-size: 10px;
+    }
+    .skillContainer{
+        align-items: center;
+    }
+} */
 
 #About h1{
     font-family: "Dancing Script", cursive;
@@ -57,6 +71,7 @@
     list-style: none;
     justify-content: center;
 }
+
 .skillContainer .icons li{
     padding: 35px 80px 35px 80px;
 } 

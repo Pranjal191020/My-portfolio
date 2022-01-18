@@ -8,15 +8,17 @@
     padding-left: 256px;
     /* height: 100%; */
     /* height: 100vh; */
-   
+    
 }
+
+
 
 .contactform{
     padding: 0 120px 40px 120px;
     /* padding-top: 40px; */
     font-family: 'Fira Sans', sans-serif;
     font-size: 20px;
-    background-color: #CCD1E4;  
+    /* background-color: #CCD1E4;   */
 }
 .contactform h1{
     font-family: 'Source Code Pro', monospace;
@@ -58,8 +60,8 @@
     margin: 3px 10px 10px 0;
 }
 .btn {
-    background-color: #813030; 
-    border: 3px solid #813030 ;
+    background-color: #060930; 
+    border: 2px solid #060930 ;
     color: white;
     padding: 7px 8px;
     text-align: center;
@@ -69,7 +71,7 @@
     cursor: pointer;
 }
 :hover.btn{
-    background-color: #dbc7c7; 
+    background-color: #CCD1E4; 
     color: black;
 }
   

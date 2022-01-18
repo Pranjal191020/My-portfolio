@@ -47,7 +47,7 @@
   /* width: 80vw; */
   background-color: #FEECE9;
   padding-left: 256px;
-  height: 15%;
+  /* height: 15%; */
   /* height: 100vh; */
 }
 
@@ -85,15 +85,16 @@
 .about {
   font-size: 25px;
   font-family: "Fira Sans", sans-serif;
+  margin-top: 50px;
 }
-.moreabout {
+.about {
   font-size: 20px;
   font-family: "Fira Sans", sans-serif;
   margin-top: 10px;
 }
 .buttons button {
-  padding: 15px 45px;
-  background-color: #bbbbbb;
+  padding: 10px 32px;
+  background-color: #FEECE9;
   font-size: 25px;
   transition-duration: 0.4s;
   border: 3px solid #0a043c;
@@ -145,14 +146,21 @@ footer {
 .soc:hover {
   color: black;
 }
-
-/* @media only screen and (max-width: 1650px) {
+/* 
+@media only screen and (max-width: 1650px) {
   .sidebar {
     transform: translate(-270px, 0);
   }
   .infoContainer{
     display: flex;
     flex-direction: column;
-  } */
+  }
+  .devPic img{
+    transform: translate(130px, -100px);
+  }
+  #about{
+    align-items: center;
+    padding-left: 0;
+  }
   
-/* } */
+} */
